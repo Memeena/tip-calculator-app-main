@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="CSS/styles.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; font-weight: 600;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="images/logo.svg" alt="Logo-img" class="logo">
+
+    <div class="tip-calculator">
+      <div class="input-fields">
+        <div class="bill-field">
+        
+          <h3 class="medium-heading">Bill</h3>
+        
+          <form action="#" class="form-action">
+          
+            <label for="bill-amount" class="form-label">Bill</label>
+            <input type="number" id="bill-amount" placeholder="0" step="0.01" dir="rtl" class="bill form-input">
+            <img src="images/icon-dollar.svg" alt="dollar-icon" class="icon-img">
+            <p class="error-msg">Error message</p>
+          </form>
+        
+        </div>
+
+        <div class="select-tip-field">
+        
+          <h3 class="medium-heading">Select Tip %</h3>
+        
+          <div class="select-tip">
+        
+            <button class="tip-link">5% </button>
+            <button class="tip-link">10%</button>
+            <button class="tip-link">15%</button>
+            <button class="tip-link">20%</button>
+            <button class="tip-link">50%</button>
+            <input type="number" dir="rtl" placeholder="Custom" class="custom-input" id="custom-tip">
+        
+          </div>
+        
+        </div>
+
+        <div class="no-of-people-field">
+          
+          <h3 class="medium-heading">Number of People</h3>
+        
+          <form action="#" class="form-action">
+          
+            <label for="total-people" class="form-label">People</label>
+            <input type="number" id="total-people" placeholder="0" step="1" dir="rtl" class="people form-input">
+            <img src="images/icon-person.svg" alt="person-icon" class="icon-img">
+            <p class="error">Can't be zero</p>
+      
+          </form>
+        
+        </div>
+
+      </div>
+
+      <div class="output-fields">
+        <div class="output">
+          
+          <div class="header-output">
+            <h3 class="medium-heading">Tip Amount</h3>
+            <p class="heading-desc">/ person</p>
+          </div>
+
+          <div class="tip-output">
+            <p class="tip-amt">$0.00</p>
+          </div>
+          
+        </div>
+
+        <div class="output">
+          
+          <div class="header-output">
+            <h3 class="medium-heading">Total</h3>
+            <p class="heading-desc">/ person</p>
+          </div>
+
+          <div class="tip-output">
+            <p class="total-amt">$0.00</p>
+          </div>
+          
+        </div>
+      
+        <a href="#" class="reset-button">reset</a>
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://twitter.com/MeKrish18">Meenakshi</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
