@@ -74,7 +74,8 @@ const calcTip = function(amount){
     if(validateInput(noOfPeople.value,billAmount.value)){
         document.querySelector('.error-msg').style.opacity = 0;
         error.style.opacity = 0;
-    
+        peopleForm.style.border = '1px solid rgba(0,0,0,0.2)';
+        
         const tipPerPerson = (billAmount.value / noOfPeople.value) * amount / 100;
         outputTipAmount.textContent = '$'+tipPerPerson.toFixed(2);
         
