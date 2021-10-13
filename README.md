@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Please refer the Screenshots folder.
 
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://github.com/Memeena/tip-calculator-app-main)
+- Live Site URL: [Live site URL here](https://memeena.github.io/tip-calculator-app-main/)
 
 ## My process
 
